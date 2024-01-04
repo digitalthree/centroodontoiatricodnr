@@ -1,6 +1,6 @@
 'use client'
 
-import React, {useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import Image from "next/image";
 import logo from "../../../../public/img/logo.png"
 import Link from "next/link";
@@ -74,3 +74,6 @@ const Navbar: React.FC<NavbarProps> = ({}) => {
 }
 
 export default Navbar
+
+
+

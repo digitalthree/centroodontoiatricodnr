@@ -15,3 +15,19 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+@layer base {
+  h1 {
+    @apply lg:text-[60px] md:text-[48px] text-[35px] font-light;
+  }
+  h2{
+    @apply lg:text-[20px] md:text-[17px] text-[14px];
+  }
+  p{
+    @apply text-[14px];
+  }
+  button{
+    @apply text-[14px]
+  }
+
+}

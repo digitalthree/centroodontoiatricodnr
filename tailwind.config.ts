@@ -16,9 +16,23 @@ const config: Config = {
       colors: {
         primary: '#1A70B2',
         secondary: '#2BA9E0'
-      }
+      },
+      container: {
+        padding: {
+          DEFAULT: '2rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
+      },
     },
   },
-  plugins: [],
+  corePlugins: {
+    container: true
+  },
+  plugins: [
+      require("daisyui"),
+  ],
 }
 export default config
